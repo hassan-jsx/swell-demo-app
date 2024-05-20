@@ -1,0 +1,9 @@
+{
+  "description": "Something special",
+  "devDependencies": {
+    "@swell/app-types": "^1.0.5"
+  },
+  "name": "demo_app",
+  "scripts": {},
+  "version": "1.0.0"
+}

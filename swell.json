@@ -1,8 +1,8 @@
 {
-	"description": "Something special",
-	"id": "demo_app",
-	"name": "demo-app",
-	"permissions": [],
-	"type": "storefront",
-	"version": "1.0.4"
+    "description": "Something special",
+    "id": "demo_app",
+    "name": "demo-app",
+    "permissions": [],
+    "type": "admin",
+    "version": "1.0.4"
 }

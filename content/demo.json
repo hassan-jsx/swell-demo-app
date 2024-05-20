@@ -1,0 +1,46 @@
+{
+    "collection": "demo",
+    "fields": [
+        {
+            "id": "name",
+            "label": "Name",
+            "type": "text",
+            "description": "The title of the review",
+            "required": true
+        },
+        {
+            "id": "slug",
+            "label": "Slug",
+            "type": "text",
+            "description": "The body of the review",
+            "required": true
+        },
+        {
+            "id": "price",
+            "label": "Price",
+            "type": "Text",
+            "required": true
+        }
+    ],
+    "views": [
+        {
+            "id": "list",
+            "nav": {
+                "parent": "products",
+                "label": "Demo app"
+            },
+
+            "fields": [
+                {
+                    "id": "name"
+                },
+                {
+                    "id": "slug"
+                },
+                {
+                    "id": "price"
+                }
+            ]
+        }
+    ]
+}
